@@ -1,0 +1,83 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Merriweather);
+
+body {
+	background-color: #f8f8f8;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+h1{
+	color: #222;
+	font-weight: 700;
+	font-size: 2em;
+	font-size: 2.2em;
+	margin: 0.67em 0px;
+}
+
+p{
+	color: #555;
+	margin-bottom: 40px;
+	font: 400 14px/22px Merriweather;
+}
+
+.container{
+	margin: 50px auto;
+	width: 600px;
+	background: #fff;
+	padding: 15px;
+	border: 1px solid #ddd;
+
+}
+
+.inner-box{
+	position: relative;
+	height: 600px;
+	border: 1px solid #B3DCF0;
+	background: url(../img/grid.png);
+
+
+}
+
+#box1, 
+#box2,
+#box3, 
+#box4, 
+#box5{
+	width: 150px;
+	height: 100px;
+	padding: 10px;
+	color: #f5f5f5;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+
+
+#box1{
+	background-color: #1ABC9C;
+}
+
+#box2{
+	background-color: #2ECC71;
+	-sand-transform: translate(200px, 0);
+}
+
+
+#box3{
+	background-color: #9B59B6;
+	-sand-transform: rotate(45deg);
+}
+
+#box4{
+	background-color: #E67E22;
+	-sand-transform: rotate(45deg) translate(200px, 0);
+}
+
+#box5{
+	background-color: #E74C3C;
+	-sand-transform: rotate(65deg) translate(500px, 0);
+}
+
+

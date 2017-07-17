@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<title>Simple Translation in IE6</title>
+
+<!--  jquery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../_nav/js/jquery.js"><\/script>')</script>
+
+<!-- demo scripts -->
+<link rel="stylesheet" type="text/css" href="css/simpleTranslate.css" />
+<script type="text/javascript" src="js/EventHelpers.js"></script>
+<script type="text/javascript" src="js/cssQuery-p.js"></script>
+<script type="text/javascript" src="js/jcoglan.com/sylvester.js"></script>
+<script type="text/javascript" src="js/cssSandpaper.js"></script>
+
+<!-- nav script -->
+<script src="../_nav/js/nav.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+<!-- nav script -->
+<div class="demo-meta">
+	<h1 class="demo-title">Simple Transfrom in IE6-8</h1>
+	<p class="demo-desc">Demo on enabling CSS Transform in IE6-8 with CssSandpaper</p>
+</div>
+
+<!-- demo content -->
+<div class="container">
+		<h1>Cross Browser CSS Transformation</h1>
+		<p>Below is the demo of css transformation using <strong>cssSandpaper</strong> contains rotation, translate, skew, and combination of these.</p>
+
+		<div class="inner-box">
+			
+			<div id="box1">
+				No translation
+			</div>
+			
+			<div id="box2">
+				-sand-transform: translate(200px, 0);
+			</div>
+			
+			<div id="box3">
+				-sand-transform: rotate(45deg);
+			</div>
+			
+			<div id="box4">
+				-sand-transform: rotate(45deg) translate(200px, 0);
+			</div>
+
+			<div id="box5">
+				sand-transform: rotate(45deg) translate(500px, 0);
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>
